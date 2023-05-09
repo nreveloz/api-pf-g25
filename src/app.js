@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const routes = require('./routes/index.js');
 
 
-const server = express(); //--> servidor del backend
+const server = express();
 
 
 server.name = 'API';
