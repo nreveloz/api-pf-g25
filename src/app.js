@@ -7,7 +7,6 @@ const routes = require('./routes/index.js');
 
 const server = express(); //--> servidor del backend
 
-
 server.name = 'API';
 
 // server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
