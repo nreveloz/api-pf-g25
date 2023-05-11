@@ -21,7 +21,7 @@ bookRouter.get("/", async (req, res) => {
 });
 
 /// RUTA  GET BOOK BY ID
-bookRouter.get("/:bookId", async (req, res) =>{
+bookRouter.get("/:bookId",async (req, res) => {
     try {
         const { bookId } = req.params;
         const bookDetailById = await getBookDetailById(bookId);
