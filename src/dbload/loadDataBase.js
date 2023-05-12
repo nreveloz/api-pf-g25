@@ -21,6 +21,7 @@ const loadDataFromApi = () => {
 
 function mapBookFromApi(book) {
     const mapped = {
+        id: book.id,
         title : book.title,
         author: book.authors[0] ? book.authors[0].name : "Not known",
         price: 10 + Math.ceil(1 + Math.random() * 200),
